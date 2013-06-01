@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1ED61DA175987510011B5C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ED61D9175987510011B5C2 /* UIKit.framework */; };
+		D1ED61DC175987510011B5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ED61DB175987510011B5C2 /* Foundation.framework */; };
+		D1ED61DE175987510011B5C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ED61DD175987510011B5C2 /* CoreGraphics.framework */; };
+		D1ED61E4175987510011B5C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1ED61E2175987510011B5C2 /* InfoPlist.strings */; };
+		D1ED61E6175987510011B5C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ED61E5175987510011B5C2 /* main.m */; };
+		D1ED61EA175987510011B5C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ED61E9175987510011B5C2 /* AppDelegate.m */; };
+		D1ED61EC175987510011B5C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ED61EB175987510011B5C2 /* Default.png */; };
+		D1ED61EE175987510011B5C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ED61ED175987510011B5C2 /* Default@2x.png */; };
+		D1ED61F0175987510011B5C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ED61EF175987510011B5C2 /* Default-568h@2x.png */; };
+		D1ED61F3175987510011B5C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ED61F2175987510011B5C2 /* ViewController.m */; };
+		D1ED61F6175987510011B5C2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1ED61F4175987510011B5C2 /* ViewController.xib */; };
+		D1ED61FE175987510011B5C2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ED61FD175987510011B5C2 /* SenTestingKit.framework */; };
+		D1ED61FF175987510011B5C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ED61D9175987510011B5C2 /* UIKit.framework */; };
+		D1ED6200175987510011B5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ED61DB175987510011B5C2 /* Foundation.framework */; };
+		D1ED6208175987510011B5C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1ED6206175987510011B5C2 /* InfoPlist.strings */; };
+		D1ED620B175987510011B5C2 /* PixtoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ED620A175987510011B5C2 /* PixtoryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1ED6201175987510011B5C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1ED61CE175987510011B5C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ED61D5175987510011B5C2;
+			remoteInfo = Pixtory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1ED61D6175987510011B5C2 /* Pixtory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixtory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1ED61D9175987510011B5C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1ED61DB175987510011B5C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1ED61DD175987510011B5C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1ED61E1175987510011B5C2 /* Pixtory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pixtory-Info.plist"; sourceTree = "<group>"; };
+		D1ED61E3175987510011B5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1ED61E5175987510011B5C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1ED61E7175987510011B5C2 /* Pixtory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pixtory-Prefix.pch"; sourceTree = "<group>"; };
+		D1ED61E8175987510011B5C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1ED61E9175987510011B5C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1ED61EB175987510011B5C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D1ED61ED175987510011B5C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D1ED61EF175987510011B5C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D1ED61F1175987510011B5C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1ED61F2175987510011B5C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1ED61F5175987510011B5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D1ED61FC175987510011B5C2 /* PixtoryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixtoryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1ED61FD175987510011B5C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D1ED6205175987510011B5C2 /* PixtoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixtoryTests-Info.plist"; sourceTree = "<group>"; };
+		D1ED6207175987510011B5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1ED6209175987510011B5C2 /* PixtoryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PixtoryTests.h; sourceTree = "<group>"; };
+		D1ED620A175987510011B5C2 /* PixtoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixtoryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1ED61D3175987510011B5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1ED61DA175987510011B5C2 /* UIKit.framework in Frameworks */,
+				D1ED61DC175987510011B5C2 /* Foundation.framework in Frameworks */,
+				D1ED61DE175987510011B5C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED61F8175987510011B5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1ED61FE175987510011B5C2 /* SenTestingKit.framework in Frameworks */,
+				D1ED61FF175987510011B5C2 /* UIKit.framework in Frameworks */,
+				D1ED6200175987510011B5C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1ED61CD175987510011B5C2 = {
+			isa = PBXGroup;
+			children = (
+				D1ED61DF175987510011B5C2 /* Pixtory */,
+				D1ED6203175987510011B5C2 /* PixtoryTests */,
+				D1ED61D8175987510011B5C2 /* Frameworks */,
+				D1ED61D7175987510011B5C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1ED61D7175987510011B5C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1ED61D6175987510011B5C2 /* Pixtory.app */,
+				D1ED61FC175987510011B5C2 /* PixtoryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1ED61D8175987510011B5C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1ED61D9175987510011B5C2 /* UIKit.framework */,
+				D1ED61DB175987510011B5C2 /* Foundation.framework */,
+				D1ED61DD175987510011B5C2 /* CoreGraphics.framework */,
+				D1ED61FD175987510011B5C2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1ED61DF175987510011B5C2 /* Pixtory */ = {
+			isa = PBXGroup;
+			children = (
+				D1ED61E8175987510011B5C2 /* AppDelegate.h */,
+				D1ED61E9175987510011B5C2 /* AppDelegate.m */,
+				D1ED61F1175987510011B5C2 /* ViewController.h */,
+				D1ED61F2175987510011B5C2 /* ViewController.m */,
+				D1ED61F4175987510011B5C2 /* ViewController.xib */,
+				D1ED61E0175987510011B5C2 /* Supporting Files */,
+			);
+			path = Pixtory;
+			sourceTree = "<group>";
+		};
+		D1ED61E0175987510011B5C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1ED61E1175987510011B5C2 /* Pixtory-Info.plist */,
+				D1ED61E2175987510011B5C2 /* InfoPlist.strings */,
+				D1ED61E5175987510011B5C2 /* main.m */,
+				D1ED61E7175987510011B5C2 /* Pixtory-Prefix.pch */,
+				D1ED61EB175987510011B5C2 /* Default.png */,
+				D1ED61ED175987510011B5C2 /* Default@2x.png */,
+				D1ED61EF175987510011B5C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1ED6203175987510011B5C2 /* PixtoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1ED6209175987510011B5C2 /* PixtoryTests.h */,
+				D1ED620A175987510011B5C2 /* PixtoryTests.m */,
+				D1ED6204175987510011B5C2 /* Supporting Files */,
+			);
+			path = PixtoryTests;
+			sourceTree = "<group>";
+		};
+		D1ED6204175987510011B5C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1ED6205175987510011B5C2 /* PixtoryTests-Info.plist */,
+				D1ED6206175987510011B5C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1ED61D5175987510011B5C2 /* Pixtory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1ED620E175987510011B5C2 /* Build configuration list for PBXNativeTarget "Pixtory" */;
+			buildPhases = (
+				D1ED61D2175987510011B5C2 /* Sources */,
+				D1ED61D3175987510011B5C2 /* Frameworks */,
+				D1ED61D4175987510011B5C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixtory;
+			productName = Pixtory;
+			productReference = D1ED61D6175987510011B5C2 /* Pixtory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1ED61FB175987510011B5C2 /* PixtoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1ED6211175987510011B5C2 /* Build configuration list for PBXNativeTarget "PixtoryTests" */;
+			buildPhases = (
+				D1ED61F7175987510011B5C2 /* Sources */,
+				D1ED61F8175987510011B5C2 /* Frameworks */,
+				D1ED61F9175987510011B5C2 /* Resources */,
+				D1ED61FA175987510011B5C2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1ED6202175987510011B5C2 /* PBXTargetDependency */,
+			);
+			name = PixtoryTests;
+			productName = PixtoryTests;
+			productReference = D1ED61FC175987510011B5C2 /* PixtoryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1ED61CE175987510011B5C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andyy Hope";
+			};
+			buildConfigurationList = D1ED61D1175987510011B5C2 /* Build configuration list for PBXProject "Pixtory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1ED61CD175987510011B5C2;
+			productRefGroup = D1ED61D7175987510011B5C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1ED61D5175987510011B5C2 /* Pixtory */,
+				D1ED61FB175987510011B5C2 /* PixtoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1ED61D4175987510011B5C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1ED61E4175987510011B5C2 /* InfoPlist.strings in Resources */,
+				D1ED61EC175987510011B5C2 /* Default.png in Resources */,
+				D1ED61EE175987510011B5C2 /* Default@2x.png in Resources */,
+				D1ED61F0175987510011B5C2 /* Default-568h@2x.png in Resources */,
+				D1ED61F6175987510011B5C2 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED61F9175987510011B5C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1ED6208175987510011B5C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1ED61FA175987510011B5C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1ED61D2175987510011B5C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1ED61E6175987510011B5C2 /* main.m in Sources */,
+				D1ED61EA175987510011B5C2 /* AppDelegate.m in Sources */,
+				D1ED61F3175987510011B5C2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED61F7175987510011B5C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1ED620B175987510011B5C2 /* PixtoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1ED6202175987510011B5C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1ED61D5175987510011B5C2 /* Pixtory */;
+			targetProxy = D1ED6201175987510011B5C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1ED61E2175987510011B5C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1ED61E3175987510011B5C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1ED61F4175987510011B5C2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1ED61F5175987510011B5C2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		D1ED6206175987510011B5C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1ED6207175987510011B5C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1ED620C175987510011B5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1ED620D175987510011B5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1ED620F175987510011B5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pixtory/Pixtory-Prefix.pch";
+				INFOPLIST_FILE = "Pixtory/Pixtory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1ED6210175987510011B5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pixtory/Pixtory-Prefix.pch";
+				INFOPLIST_FILE = "Pixtory/Pixtory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D1ED6212175987510011B5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pixtory.app/Pixtory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pixtory/Pixtory-Prefix.pch";
+				INFOPLIST_FILE = "PixtoryTests/PixtoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D1ED6213175987510011B5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pixtory.app/Pixtory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pixtory/Pixtory-Prefix.pch";
+				INFOPLIST_FILE = "PixtoryTests/PixtoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1ED61D1175987510011B5C2 /* Build configuration list for PBXProject "Pixtory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1ED620C175987510011B5C2 /* Debug */,
+				D1ED620D175987510011B5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1ED620E175987510011B5C2 /* Build configuration list for PBXNativeTarget "Pixtory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1ED620F175987510011B5C2 /* Debug */,
+				D1ED6210175987510011B5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1ED6211175987510011B5C2 /* Build configuration list for PBXNativeTarget "PixtoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1ED6212175987510011B5C2 /* Debug */,
+				D1ED6213175987510011B5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1ED61CE175987510011B5C2 /* Project object */;
+}
